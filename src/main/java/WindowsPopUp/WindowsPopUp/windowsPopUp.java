@@ -19,6 +19,8 @@ public class windowsPopUp {
 		driver.get("https://admin:admin@the-internet.herokuapp.com/");
 		driver.findElement(By.cssSelector("a[href='/basic_auth']")).click();
 		
+		System.out.println("Flag string for github update porpouse.");
+		
 	}
 
 }
