@@ -20,7 +20,7 @@ public class windowsPopUp {
 		driver.findElement(By.cssSelector("a[href='/basic_auth']")).click();
 		
 		System.out.println("Flag string for github update porpouse.");
-		System.out.println("One another flag for GitHub Testing porpouses.");
+		System.out.println("Flag string for Develop Branch checks.");
 	}
 
 }
